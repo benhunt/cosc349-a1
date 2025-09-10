@@ -19,7 +19,7 @@ app.post('/submit', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(\`API server listening on port \${port}\`);
+  console.log("API server listening on port " + port);
 });
 EOF
 
